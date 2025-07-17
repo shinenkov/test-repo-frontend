@@ -1,0 +1,23 @@
+.text-green-500 {
+  color: #0cca1f;
+}
+.text-blue-500 {
+  color: #3751db;
+}
+
+.slide-fade-enter-active,
+.slide-fade-exit-active {
+  transition: all 0.3s ease;
+  max-height: 500px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.slide-fade-enter,
+.slide-fade-exit-to {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
